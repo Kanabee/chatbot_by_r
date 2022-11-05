@@ -132,7 +132,8 @@ buy <- as.integer(readLines('stdin', n=1))
     print(location)
     print("your code number")
     random_code <- (sample.int(9999, 1, replace = TRUE))
-    print(paste("code-number:",random_code))
+    print(paste("code-number:",random_code,"-",loc[[location]]))
+    print("Thank you !)
     
   }else{
     delivery()
