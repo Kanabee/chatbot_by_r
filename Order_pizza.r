@@ -138,7 +138,7 @@ buy <- as.integer(readLines('stdin', n=1))
   }else{
     delivery()
   }
-}else if(action ==2){
+}else if(action == 2 ){
   print("promotion pizza")
   print("XXX")
   
